@@ -1,0 +1,6 @@
+word = input().lower()
+sun = word.count('sun')
+water = word.count('water')
+sand = word.count('sand')
+fish = word.count('fish')
+print(sun + water + fish + sand)
